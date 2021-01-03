@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+    <title>bookings Strat-HAWK</title>
+    </head>
+<body>
+    <a href="Strat%20Hawk.html">BACK</a>
+    <h1>
+        Strat Hawk
+    </h1>
+    <a href="Strat%20Hawk.html">Home</a>
+    <a href="bookings.html">My Bookings</a>
+    <a href="Destinations.html">Destinations</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html">Signup</a>
+    <h2>Plan</h2>   
+    <img Src="C:\html-learn\images/plane.jpg" width="15%">
+    
+    <h2>Search Flights</h2>
+    <form  method="Post" action="index.html">    
+   <p>
+    <tr>
+    <input type="text" name="From" placeholder="From" required>
+    </tr>
+    <tr>
+    <input type="text" name="To"  placeholder="To" required>
+    </tr>
+       <tr>
+    <input type="date" name="date" placeholder="Travel DATE" required>
+       </tr>
+            <tr>
+       <input type="time" name="time" placeholder="Travel Time" required>
+            </tr>
+       <tr>
+    <Select id="Class" name="Class">
+           <option>First Class</option>
+           <option>Bussines Class</option>
+           <option>Economy</option>
+           <option>Low Cost</option>
+           </Select>
+        </tr>
+       <tr>
+       <input type="submit" value="Search">
+       </tr>
+    </p>
+</form>
+    <table border="2" cellpadding="3" cellspacing="0">
+    
+        <h3>Recommended Flights</h3>
+        <tr>
+            <th>Flight</th>
+            <th>Departure</th>
+            <th>Duration</th>
+            <th>Arrival</th>
+            <th>Cost</th>
+            <th>Book</th>
+        </tr>
+        <tr>
+            <td>SH288</td>
+            <td><center>Berlin(BER)<br>20:00 <br>Wed 28 Oct 2020</center></td>
+            <td>49 Hrs 5min</td>
+            <td><center>Sydney(SYD)<br>20:00<br> Tue 10 Nov 2020</center></td>
+            <td>3447$</td>            
+            <td>
+            <form method="Post" action="index.html">
+                <input Type="submit" value="Book">
+                </form>
+            </td>
+             
+        </tr>
+            
+        <tr>
+            <td>SH245</td>
+            <td><center>Sydney(SYD)<br>22:25<br>Tue 10 Nov 2020</center></td>
+            <td>23 Hrs 5 Min</td>
+            <td><center>Berlin(BER)<br>12:45<br>Wed 11 Nov 2020</center></td>
+            <td>801$</td>
+            <td>
+                <form  method="Post" action="index.html">
+            <input type="submit" value="Book">
+                    </form>
+            </td>
+        </tr>           
+    </table>      
+    </body>
+</html>
