@@ -1,0 +1,24 @@
+h1 {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background: palevioletred;
+}
+h3 {
+    height: 100%;
+    width: 100%;
+    background: skyblue;
+    color: white;
+}
+
+p {
+    height: 100%;
+    width: 100%;
+    background: slategray;
+    color: black;
+}
+
+img {
+    border: 10px groove greenyellow;
+
+}

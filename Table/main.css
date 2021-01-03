@@ -1,0 +1,27 @@
+h1 {
+    height: 100%;
+    width: 25%;
+    color: white;
+    background: red;
+}
+
+p {
+    height: 55%;
+    width: 39%;
+    color: white;
+    background: cadetblue;
+}
+
+tr {
+    height: 25%;
+    width: 25%;
+    color: white;
+    background: greenyellow;
+}
+
+td {
+    height: 25%;
+    width: 25%;
+    color: white;
+    background: lightskyblue;
+}
