@@ -1,0 +1,30 @@
+h1 {
+    height: 100%;
+    width: 29%;
+    color: white;
+    background: red;
+}
+
+h2 {
+    height: 100%;
+    width: 10%;
+    color: white;
+    background: green;
+}
+
+ul {
+    height: 100%%;
+    width:100%;
+
+}
+p {
+    text-align: left;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    background: blue;
+    color: white;
+    border: groove 10px blue;
+}
